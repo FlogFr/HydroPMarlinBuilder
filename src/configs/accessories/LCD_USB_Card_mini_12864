@@ -1,6 +1,9 @@
 opt_enable MKS_MINI_12864_V3
 
 opt_enable NEOPIXEL_LED
+opt_enable LED_CONTROL_MENU
+opt_enable LED_USER_PRESET_STARTUP
+opt_enable LED_COLOR_PRESETS
 opt_set NEOPIXEL_TYPE   "NEO_RGB"
 
 echo "- Configured for LCD USB Card Reader Mini 12864" >> README.md

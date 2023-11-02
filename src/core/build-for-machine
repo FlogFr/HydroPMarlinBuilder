@@ -13,6 +13,5 @@ cd "$MARLINDIR"
 /home/flog/.platformio/penv/bin/pio run --project-dir . --silent "$@"
 
 
-
 # Copy the output file out here, so we can save it as an artifact
 cp .pio/build/*/firmware.[bh]* ../
