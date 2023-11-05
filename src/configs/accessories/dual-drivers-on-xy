@@ -4,7 +4,6 @@ opt_set DEFAULT_MAX_ACCELERATION "{ 180, 180, 80 }"
 opt_set MANUAL_FEEDRATE "{ 50*60, 50*60, 4*60 }"
 opt_set AXIS_RELATIVE_MODES "{ false, false, false }"
 
-
 opt_enable \
     MIN_SOFTWARE_ENDSTOPS \
     SOFT_ENDSTOPS_MENU_ITEM \
