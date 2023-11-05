@@ -1,4 +1,4 @@
-opt_set DEFAULT_AXIS_STEPS_PER_UNIT "{ 200, 200, 800, 200 }"
+# opt_set DEFAULT_AXIS_STEPS_PER_UNIT "{ 200, 200, 800, 200 }"
 
 # NB! The values below will only have any effect if the board is fitted with programmable drivers
 
