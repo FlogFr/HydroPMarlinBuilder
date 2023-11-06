@@ -16,8 +16,7 @@ $CFGDIR/accessories/dual-drivers-on-xy
 opt_set X_BED_SIZE "600"
 opt_set Y_BED_SIZE "1200"
 
-# opt_disable \
-#     E0_DRIVER_TYPE
+opt_disable E0_DRIVER_TYPE
 
 # Normally Closed Endstop Switch CNC Maker Bot NC -> LOW
 opt_set X_MIN_ENDSTOP_HIT_STATE "LOW"
