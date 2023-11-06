@@ -1,5 +1,7 @@
 opt_set X_DRIVER_TYPE "A4988"
 opt_set Y_DRIVER_TYPE "A4988"
 opt_set Z_DRIVER_TYPE "A4988"
+opt_set X2_DRIVER_TYPE "A4988"
+opt_set Y2_DRIVER_TYPE "A4988"
 
 echo "- Configured for A4988" >> README.md
