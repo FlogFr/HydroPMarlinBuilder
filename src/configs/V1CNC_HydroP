@@ -9,12 +9,10 @@ export V1_VERSION=${V1_VERSION}D
 $CFGDIR/common/v1-base-config
 $CFGDIR/common/cnc-config
 $CFGDIR/boards/ATmega2560
+$CFGDIR/accessories/use-32-microsteps
 $CFGDIR/accessories/A4988
 $CFGDIR/accessories/LCD_USB_Card_mini_12864
 $CFGDIR/accessories/dual-drivers-on-xy
-
-opt_set X_BED_SIZE "600"
-opt_set Y_BED_SIZE "1200"
 
 opt_disable E0_DRIVER_TYPE
 
