@@ -1,7 +1,10 @@
 opt_set EXTRUDERS "0"
-opt_set DEFAULT_MAX_FEEDRATE "{ 50, 50, 15 }"
+opt_set DEFAULT_MAX_FEEDRATE "{ 50, 50, 30 }"
 opt_set DEFAULT_MAX_ACCELERATION "{ 180, 180, 80 }"
-opt_set MANUAL_FEEDRATE "{ 50*60, 50*60, 4*60 }"
+
+# (mm/min) Feedrates for manual moves along X, Y, Z, E from panel
+opt_set MANUAL_FEEDRATE "{ 50*10, 50*10, 30 }"
+
 opt_set AXIS_RELATIVE_MODES "{ false, false, false }"
 
 opt_enable MIN_SOFTWARE_ENDSTOPS
