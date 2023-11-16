@@ -9,12 +9,20 @@ export V1_VERSION=${V1_VERSION}D
 $CFGDIR/common/v1-base-config
 $CFGDIR/common/cnc-config
 $CFGDIR/boards/ATmega2560
-$CFGDIR/accessories/use-16-microsteps
-$CFGDIR/accessories/A4988
+# $CFGDIR/accessories/use-16-microsteps
 $CFGDIR/accessories/LCD_USB_Card_mini_12864
 $CFGDIR/accessories/dual-drivers-on-xy
 
-opt_disable E0_DRIVER_TYPE
+# 16 microsteps . 360÷1.8×16÷2÷16 = 100 , 360÷1.8×16÷2 = 1600
+# opt_set DEFAULT_AXIS_STEPS_PER_UNIT "{ 100, 100, 1600 }"
+# 0 microsteps . 360 / 1.8 / 2 / 16 = 6.25 , 360 / 1.8 / 2 = 100
+opt_set DEFAULT_AXIS_STEPS_PER_UNIT "{ 6.25, 6.25, 100 }"
+
+opt_set X_DRIVER_TYPE "A4988"
+opt_set Y_DRIVER_TYPE "A4988"
+opt_set Z_DRIVER_TYPE "A4988"
+opt_set X2_DRIVER_TYPE "A4988"
+opt_set Y2_DRIVER_TYPE "A4988"
 
 # Normally Closed Endstop Switch CNC Maker Bot NC -> LOW
 opt_set X_MIN_ENDSTOP_HIT_STATE "LOW"

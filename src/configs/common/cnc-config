@@ -45,4 +45,3 @@ opt_disable \
 # Write some useful tidbits to the readme.
 echo "- Configured for CNC" >> README.md
 echo "- Custom LCD commands" >> README.md
-

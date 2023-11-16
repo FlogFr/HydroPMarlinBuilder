@@ -11,6 +11,7 @@ opt_enable MIN_SOFTWARE_ENDSTOPS
 opt_enable SOFT_ENDSTOPS_MENU_ITEM
 # opt_enable USE_XMAX_PLUG
 # opt_enable USE_YMAX_PLUG
+
 opt_enable INVERT_X2_VS_X_DIR
 opt_enable X_DUAL_ENDSTOPS
 opt_enable INVERT_Y2_VS_Y_DIR
