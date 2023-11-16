@@ -9,7 +9,7 @@ export V1_VERSION=${V1_VERSION}D
 $CFGDIR/common/v1-base-config
 $CFGDIR/common/cnc-config
 $CFGDIR/boards/ATmega2560
-$CFGDIR/accessories/use-32-microsteps
+$CFGDIR/accessories/use-16-microsteps
 $CFGDIR/accessories/A4988
 $CFGDIR/accessories/LCD_USB_Card_mini_12864
 $CFGDIR/accessories/dual-drivers-on-xy
