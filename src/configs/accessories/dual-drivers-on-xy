@@ -25,7 +25,7 @@ opt_set Y2_DIR_PIN 34
 
 opt_enable INVERT_X2_VS_X_DIR
 opt_enable X_DUAL_ENDSTOPS
-opt_enable INVERT_Y2_VS_Y_DIR
+# opt_enable INVERT_Y2_VS_Y_DIR
 opt_enable Y_DUAL_ENDSTOPS
 
 opt_set X2_STOP_PIN X_MAX_PIN
