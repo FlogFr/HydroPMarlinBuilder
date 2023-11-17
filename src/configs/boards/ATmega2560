@@ -1,8 +1,8 @@
 opt_set MOTHERBOARD "BOARD_MKS_GEN_L"
 
-# pushd Marlin/src/HAL
+pushd Marlin/src/HAL
 rm -rf AVR DUE ESP32 LINUX LPC1768 SAMD51 TEENSY*
-# popd
+popd
 
 # Write some useful tidbits to the readme.
 echo "- Configured for ATmega2560" >> README.md
