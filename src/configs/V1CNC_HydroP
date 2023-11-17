@@ -24,6 +24,8 @@ opt_set Z_DRIVER_TYPE "A4988"
 opt_set X2_DRIVER_TYPE "A4988"
 opt_set Y2_DRIVER_TYPE "A4988"
 
+opt_set EEPROM_INIT_NOW
+
 # Normally Closed Endstop Switch CNC Maker Bot NC -> LOW
 opt_set X_MIN_ENDSTOP_HIT_STATE "LOW"
 opt_set X2_MIN_ENDSTOP_HIT_STATE "LOW"
